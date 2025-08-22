@@ -1,0 +1,19 @@
+{
+  "name": "time-stories-api",
+  "version": "1.0.0",
+  "description": "API to fetch latest stories from Time.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc index.ts --target ES2020 --module commonjs --outDir dist",
+    "serve": "node dist/index.js",
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
